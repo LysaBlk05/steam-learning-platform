@@ -1,7 +1,6 @@
 <?php
 // 1. CONNEXION ET CONFIGURATION
-$mysqli = new mysqli('localhost', 'e22408872sql', '#VS2TxpP', 'e22408872_db1');
-
+$mysqli = new mysqli('localhost', '**********', '**********', '**********');
 if ($mysqli->connect_errno) {
     echo "Error: Problème de connexion à la BDD \n";
     exit();
