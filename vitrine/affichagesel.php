@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('localhost', 'e22408872sql', '#VS2TxpP', 'e22408872_db1');
+$mysqli = new mysqli('localhost', '**********', '**********', '**********');
 if ($mysqli->connect_errno) {
     // Affichage d'un message d'erreur
     echo "Error: Problème de connexion à la BDD \n";
