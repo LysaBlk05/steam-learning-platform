@@ -41,8 +41,8 @@
 
                     <div class="card shadow p-4 text-center">
                         <?php
-                        $mysqli = new mysqli('localhost', 'e22408872sql', '#VS2TxpP', 'e22408872_db1');
-                        if ($mysqli->connect_errno) {
+                            $mysqli = new mysqli('localhost', '**********', '**********', '**********');
+                            if ($mysqli->connect_errno) {
                             echo "Error: Problème de connexion à la BDD <br>";
                             echo "Errno: " . $mysqli->connect_errno . "<br>";
                             echo "Error: " . $mysqli->connect_error . "<br>";
